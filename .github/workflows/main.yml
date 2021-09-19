@@ -7,5 +7,5 @@ on: push
       steps:
         - uses: actions/checkout@v1
         - uses: ./action-a
-          with: 
+          with:
             MY_NAME: "Mona"
